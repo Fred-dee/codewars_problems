@@ -16,12 +16,9 @@ char *DuplicateEncoder(char *str)
   char *ret;
   size_t len;
   size_t i;
-  size_t j;
-  int dup;
   
   len = strlen(str);
   i = 0;
-  dup = 0;
   ret = (char *)malloc(sizeof(char ) * len + 1);
   for (i; i < len; i++)
   {
